@@ -4,7 +4,6 @@ The latest iteration in medical segmentation analysis by the state-of-the-art Vi
 
 # Architecture 
 ![VisionFuseNet Arch](https://github.com/Bhavjot-Singh03/VisionFuseNet/assets/131793243/040e83b9-39b5-4168-abfb-bbe7cd54e48e)
-
 ## MHSAR Block
 ![VisionFuseNet Block](https://github.com/Bhavjot-Singh03/VisionFuseNet/assets/131793243/b1ec59ae-cede-412c-88de-178114b188ba)
 
