@@ -8,3 +8,22 @@ The latest iteration in medical segmentation analysis by the state-of-the-art Vi
 MHSAR Block
 ![VisionFuseNet Block](https://github.com/Bhavjot-Singh03/VisionFuseNet/assets/131793243/b1ec59ae-cede-412c-88de-178114b188ba)
 
+<h2>Performance comparison</h2>
+
+<h3>1. Kvasir Instrument</h3>
+
+Backbone : DenseNet121
+
+| Models               | Dice Score | mIoU   | Accuracy | Recall | Specificity | Precision | Parameters |
+|----------------------|------------|--------|----------|--------|-------------|-----------|------------|
+| Vision Lab           | 0.9396     | 0.8864 | 0.9862   | 0.9270 | 0.9948      | 0.9530    | 29.7M      |
+| VisionFuseNet        | 0.9409     | 0.8888 | 0.9865   | 0.9460 | 0.9927      | 0.9367    | 18.2M      |
+
+<h3>2. Kvasir Seg</h3>
+
+Backbone : EfficientNetV2B3
+
+| Models               | Dice Score | mIoU   | Accuracy | Recall | Specificity | Precision | Parameters |
+|----------------------|------------|--------|----------|--------|-------------|-----------|------------|
+| Vision Lab           | 0.9059     | 0.8299 | 0.9626   | 0.8999 | 0.9845      | 0.9153    | 37M        |
+| VisionFuseNet        | 0.9231     | 0.8582 | 0.9699   | 0.9065 | 0.9879      | 0.9411    | 16.7M      |
